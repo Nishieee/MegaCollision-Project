@@ -81,6 +81,9 @@ The dimensional model is a star schema designed for traffic accident data analys
   - **Fact Tables for Contributing Factors and Vehicle Junctions:** Used to scrutinize specific aspects of accidents.
 
 
+  ![Dimensional Model](https://github.com/Nishieee//dimenaional model.png)
+
+
 
 
 
