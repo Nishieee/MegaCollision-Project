@@ -15,21 +15,33 @@ The crash data is obtained from the Department of Transportation for each city:
 - [Austin](https://data.austintexas.gov/Transportation-and-Mobility/Austin-Crash-Report-Data-Crash-Level-Records/y2wy-tgr5/about_data)
 
 ## Project Phases
+## Project Phases
 
 ### Phase 1: Data Profiling and Staging
-- **Data Profiling:** Use Alteryx or ydata profile for initial data profiling.
-- **Data Staging:** Create staging tables using Talend for ETL jobs, following standard practices. Use Azure SQL Server, MySQL, or SQL Server.
-- **Dimensional Model:** Design facts and dimensions, create a mapping document, explain source to target mappings, and document transformations.
-- **Submission Deadline:** Part 1 due by 31st March EOD.
+
+#### Data Profiling
+For the initial data profiling, we used Alteryx and YData Profile to get a comprehensive understanding of the dataset.
+
+#### Data Staging
+Created staging tables using Talend for ETL jobs, adhering to standard practices. The staging environment utilizes Azure SQL Server, MySQL, or SQL Server for data storage.
+
+#### Dimensional Model
+Designed the dimensional model to include facts and dimensions. This involved creating a detailed mapping document to explain source-to-target mappings and document all necessary transformations.
 
 ### Phase 2: Data Integration and Querying
-- **Staging to Integration:** Implement ETL jobs using Talend, validate data, and explain any row rejections.
-- **Business Questions:** Query the dimensional data model to answer provided business questions.
-- **Submission Deadline:** Part 2 due by 7th April EOD.
+
+#### Staging to Integration
+Implemented ETL jobs using Talend to transfer data from staging to the integration layer. Data validation was performed, and any row rejections were thoroughly explained.
+
+#### Business Questions
+Queried the dimensional data model to answer the provided business questions, ensuring the insights are accurate and actionable.
+
 
 ### Phase 3: Visualization
-- **Tools:** Use Tableau and Power BI to create visualizations. Optionally publish reports to the cloud if access issues are resolved.
-- **Submission Deadline:** Part 3 due by 14th April EOD.
+
+#### Tools
+For the visualization phase, we used Tableau and Power BI to create insightful visualizations.
+
 
 ## Analysis Questions
 
